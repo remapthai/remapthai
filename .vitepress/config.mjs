@@ -27,5 +27,5 @@ export default defineConfig({
     },
   },
 
-  head: [['link', { rel: 'icon', href: 'logo-mini.svg' }]]
+  head: [['link', { rel: 'shortcut icon', href: 'logo-mini.svg' }]]
 });
