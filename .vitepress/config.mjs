@@ -28,5 +28,14 @@ export default defineConfig({
     },
   },
 
-  head: [['link', { rel: 'shortcut icon', type:'image/webp', href: '/logo-mini.webp' }]]
+  head: [
+    ['script', {}, `
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js');
+        });
+      }
+    `],
+    ['link', { rel: 'shortcut icon', type:'image/webp', href: '/logo-mini.webp' }]
+  ]
 });
