@@ -18,6 +18,7 @@ export default defineConfig({
     ],
 
     outlineTitle: "หัวข้อ",
+    returnToTopLabel: "หัวข้อแรก",
 
     appearance: "force-dark",
 

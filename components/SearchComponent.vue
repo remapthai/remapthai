@@ -54,7 +54,7 @@ const currentPage = ref(1);
 const itemsPerPage = 5;
 
 const performSearch = () => {
-  const query = searchQuery.value.toLowerCase();
+  const query = searchQuery.value.toLowerCase().replaceAll(" ", "");
 
   if (query) {
     filteredResults.value = data.filter(
@@ -118,7 +118,6 @@ li {
   border: 1px solid #246cbe;
   border-radius: 4px;
   text-align: center;
-  /* background-image: linear-gradient(120deg, #0a1e3569 15%, #2a7cda00); */
   background-color: rgba(0, 0, 0, 0.384);
 }
 
