@@ -11,15 +11,15 @@ hero:
     alt: Thai ECU Remap
   actions:
     - theme: brand
-      text: การใช้งาน TunerPro พื้นฐาน
+      text: การใช้งาน TunerPro เบื้องต้น
       link: /tunerpro-basic
     - theme: brand
       text: คลังรหัสกล่อง ECU
       link: /ecu-data
 
 features:
-  - title: การใช้งาน TunerPro พื้นฐาน
-    details: ความรู้การใช้งาน TunerPro ในการปรับแต่งไฟล์ bin ของ ECU
+  - title: การใช้งาน TunerPro เบื้องต้น
+    details: ความรู้การใช้งาน TunerPro เบื้องต้น เพื่อปรับแต่งไฟล์ .bin ของ ECU
   - title: คลังรหัสกล่อง ECU
     details: ECM ID, Part code, Start Offset, Checksum Offset
 ---

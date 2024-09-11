@@ -14,7 +14,7 @@ export default defineConfig({
 
     nav: [
       { text: "หน้าแรก", link: "/" },
-      { text: "การใช้งาน TunerPro", link: "/tunerpro-basic" },
+      { text: "TunerPro เบื้องต้น", link: "/tunerpro-basic" },
       { text: "คลังรหัส ECU", link: "/ecu-data" },
     ],
 
