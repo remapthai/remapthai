@@ -17,11 +17,11 @@
     <!-- Search Results -->
     <div v-if="paginatedResults.length > 0">
       <ul>
-        <li v-for="item in paginatedResults" :key="item.name">
-          <p style="font-size: 1.4em">{{ item.partcode }}</p>
+        <li v-for="item in paginatedResults" :key="item.i">
+          <p style="font-size: 1.4em">{{ item.p }}</p>
           <p class="ecu-info">
-            ECM ID: {{ item.id }} , Start Offset: {{ item.startoffset }} ,
-            Checksum Offset: {{ item.checksumoffset }}
+            ECM ID: {{ item.i }} , Start Offset: {{ item.s }} ,
+            Checksum Offset: {{ item.c }}
           </p>
         </li>
       </ul>
@@ -59,8 +59,8 @@ const performSearch = () => {
   if (query) {
     filteredResults.value = data.filter(
       (item) =>
-        item.id.toLowerCase().includes(query) ||
-        item.partcode.toLowerCase().replaceAll("-", "").includes(query)
+        item.i.toLowerCase().includes(query) ||
+        item.p.toLowerCase().replaceAll("-", "").includes(query)
     );
   } else {
     filteredResults.value = data; // Show all items if no query
