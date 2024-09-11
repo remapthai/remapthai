@@ -40,7 +40,7 @@
 
 /* VPSwitch VPSwitchAppearance */
 
-:root .VPNavBarAppearance {
+/* :root .VPNavBarAppearance {
     display: none;
 }
 
@@ -54,4 +54,14 @@
 
 :root .VPSwitchAppearance {
     display: none;
+} */
+
+/* vpi-more-horizontal icon */
+
+:root .vpi-more-horizontal {
+  display: none;
+}
+
+:root .vpi-more-horizontal .icon {
+  display: none;
 }
