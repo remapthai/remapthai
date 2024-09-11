@@ -29,17 +29,7 @@ export default defineConfig({
   },
 
   head: [
-    [
-      "script",
-      {},
-      `
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js');
-        });
-      }
-    `,
-    ],
+
     // Preconnect to Google's font domain
     [
       "link",
@@ -73,5 +63,6 @@ export default defineConfig({
       "link",
       { rel: "shortcut icon", type: "image/webp", href: "/logo-mini.webp" },
     ],
+    
   ],
 });
