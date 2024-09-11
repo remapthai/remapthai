@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-  // base: '/remapthai.github.io/',
+  base: '/',
   title: "Thai ECU Remap",
   description: "รวมข้อมูลรีแมพ ECU มอเตอร์ไซค์",
   themeConfig: {
