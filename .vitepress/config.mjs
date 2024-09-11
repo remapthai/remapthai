@@ -9,7 +9,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
-    logo: 'logo-mini.svg',
+    logo: 'logo-mini.png',
 
     nav: [
       { text: "หน้าแรก", link: "/" },
@@ -27,5 +27,5 @@ export default defineConfig({
     },
   },
 
-  head: [['link', { rel: 'shortcut icon', href: 'logo-mini.svg' }]]
+  head: [['link', { rel: 'shortcut icon', type:'image/png', href: 'logo-mini.png' }]]
 });

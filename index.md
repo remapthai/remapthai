@@ -7,7 +7,7 @@ hero:
   text: "รวมข้อมูลรีแมพ ECU มอเตอร์ไซค์"
   tagline: ความรู้เบื้องต้น / สำหรับมือใหม่
   image:
-    src: logo-full.svg
+    src: logo-full.png
     alt: Thai ECU Remap
   actions:
     - theme: brand
