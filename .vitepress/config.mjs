@@ -3,12 +3,13 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+  base: '/remapthai/',
   title: "Thai ECU Remap",
   description: "รวมข้อมูลรีแมพ ECU มอเตอร์ไซค์",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
-    logo: '/logo-mini.svg',
+    logo: 'logo-mini.svg',
 
     nav: [
       { text: "หน้าแรก", link: "/" },
@@ -26,5 +27,5 @@ export default defineConfig({
     },
   },
 
-  head: [['link', { rel: 'icon', href: '/logo-mini.svg' }]]
+  head: [['link', { rel: 'icon', href: 'logo-mini.svg' }]]
 });
