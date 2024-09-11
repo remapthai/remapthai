@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   base: "/",
+  appearance: 'force-dark',
   title: "Thai ECU Remap",
   description: "รวมข้อมูลรีแมพ ECU มอเตอร์ไซค์",
   themeConfig: {
@@ -19,8 +20,6 @@ export default defineConfig({
 
     outlineTitle: "หัวข้อ",
     returnToTopLabel: "หัวข้อแรก",
-
-    appearance: "force-dark",
 
     footer: {
       message: "",
@@ -63,6 +62,6 @@ export default defineConfig({
       "link",
       { rel: "shortcut icon", type: "image/webp", href: "/logo-mini.webp" },
     ],
-    
+
   ],
 });
