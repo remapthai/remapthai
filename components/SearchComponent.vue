@@ -60,7 +60,7 @@ const performSearch = () => {
     filteredResults.value = data.filter(
       (item) =>
         item.i.toLowerCase().includes(query) ||
-        item.p.toLowerCase().replaceAll("-", "").includes(query)
+        item.p.toLowerCase().includes(query)
     );
   } else {
     filteredResults.value = data; // Show all items if no query

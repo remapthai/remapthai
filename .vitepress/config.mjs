@@ -19,7 +19,7 @@ export default defineConfig({
     ],
 
     outlineTitle: "หัวข้อ",
-    returnToTopLabel: "หัวข้อแรก",
+    returnToTopLabel: "ไปที่ หัวข้อแรก",
 
     footer: {
       message: "",
